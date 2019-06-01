@@ -1,0 +1,26 @@
+//Swapping Two Variables
+
+v1 = "first string"
+v2 = "second string"
+
+//Simplest solution
+v1 = "second string"
+v2 = "first string"
+//But not best solution because any changes won't follow
+
+//Use temp variables
+temp1 = v1
+temp2 = v2
+
+v1 = temp2
+v2 = temp1
+
+//Better solution
+
+temp = v1
+v1 = v2
+v2 = temp
+
+print(v1) //Expected output: second string
+print(v2) //Expected output: first string
+
