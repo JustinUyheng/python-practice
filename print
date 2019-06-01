@@ -1,0 +1,15 @@
+//jupyter
+
+print("Hello World") //Expected output: Hello World
+
+print('more string') //Expected output: more string
+
+print(3) //Expected output: 3
+
+print("more string")
+print(3)
+
+//Expected output
+//more string
+//3
+
