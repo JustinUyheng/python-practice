@@ -1,0 +1,41 @@
+//jupyter
+
+a = 1 //assign 1 to a or a refers to 1
+print(a) //Expected output: 1
+
+b = 2 //assign 2 to b
+print(b) //Expected output: 2
+
+print(a)
+print(b)
+//Expected output:
+//1
+//2
+
+c = "hello there" //assign string "hello there" to c
+print(c) //Expected output: hello there
+
+//Reassigning variables
+print(b) //Expected output: 2
+b = 1 //assign 1 to b
+print(b) //Expected output: 1
+
+
+print(e) //Expected output: NameError
+
+e = "this is a string" //assign string "this is a string" to e
+print(e) //Expected output: this is a string
+
+print(a)
+print(c)
+//Expected output:
+//1
+//hello there
+
+f = a //assign a to f
+print(f) //Expected output: 1
+
+a = 2 //assign 2 to a
+print(a) //Expected output: 2
+
+print(f) //Expected output: 1
