@@ -1,0 +1,12 @@
+def function4(x):
+	print(x)
+	print("still in this function")
+	return 3 * x
+	
+f = function4(4)
+# Expected output: 
+# 4
+# still in this function
+
+print(f)
+# Expected output: 12
