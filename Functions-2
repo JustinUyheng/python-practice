@@ -1,0 +1,25 @@
+# a mapping
+#input or an argument
+def function2(x):
+	return 2*x
+
+a = function2(3) # use 3 as argument
+#return value or output
+
+print(a)
+# Expected output: 6
+
+b = function2(4) # use 4 as argument
+#return value or output
+
+print(b)
+# Expected output: 8
+
+c = function2(5) # use 5 as argument
+#return value or output
+
+print(c)
+# Expected output: 10
+
+d = function2()
+# Expected output: TypeError
