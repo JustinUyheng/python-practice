@@ -1,0 +1,168 @@
+a = 1
+b = 2
+print("a is less than b") //print only if a < b
+
+//if clause
+
+if a < b:
+	print("a is less than b")
+print("Not sure if a is less than b")\
+
+//Expected output:
+//a is less than b
+//Not sure if a is less than b
+
+a = 3
+b = 2
+
+/if clause
+
+if a < b:
+	print("a is less than b")
+print("Not sure if a is less than b")
+
+//Expected output:
+//Not sure if a is less than b
+
+a = 3
+b = 2
+
+//if clause
+
+if a < b:
+	print("a is less than b")
+	print("a is definitely less than b")
+print("Not sure if a is less than b")
+
+//Expected output:
+//a is less than b
+//a is definitely less than b
+//Not sure if a is less than b
+
+//NOTE: be mindful of the number of spaces in the indentation
+
+c = 3
+d = 4
+if c < d:
+	print("c is less than d")
+else: //Else clause
+	print("c is NOT less than d")
+	print("I don't think c is less than d")
+print("outside the if block")
+
+//Expected output:
+//c is less than d
+//outside the if block
+
+c = 5
+d = 4
+if c < d:
+	print("c is less than d")
+else: //Else clause
+	print("c is NOT less than d")
+	print("I don't think c is less than d")
+print("outside the if block")
+
+//Expected output:
+//c is NOT less than d
+//I don't think c is less than d
+//outside the if block
+
+//use of elif
+
+e = 7
+f = 8
+if e < f:
+	print("e is less than f")
+elif e == f:
+	print("e is equal to f")
+else:
+	print("e is greater than f")
+	
+//Expected output
+//e is less than f
+
+//use of elif
+
+e = 8
+f = 8
+if e < f:
+	print("e is less than f")
+elif e == f:
+	print("e is equal to f")
+else:
+	print("e is greater than f")
+	
+//Expected output
+//e is equal to f
+
+//use of elif
+
+e = 10
+f = 8
+if e < f:
+	print("e is less than f")
+elif e == f:
+	print("e is equal to f")
+else:
+	print("e is greater than f")
+	
+//Expected output
+//e is greater than f
+
+//use of multiple elif
+
+e = 10
+f = 8
+if e < f:
+	print("e is less than f")
+elif e == f:
+	print("e is equal to f")
+elif e > f + 10:
+	print("e is greater than f by more than 10")
+else:
+	print("e is greater than f")
+	
+//Expected output
+//e is greater than f
+
+
+e = 20
+f = 8
+if e < f:
+	print("e is less than f")
+elif e == f:
+	print("e is equal to f")
+elif e > f + 10:
+	print("e is greater than f by more than 10")
+else:
+	print("e is greater than f")
+	
+//Expected output
+//e is greater than f by more than 10
+
+g = 7
+h = 8
+if g < h:
+	print("g is less than h")
+else:
+	if g == h:
+		print("g is equal to h")
+	else:
+		print("g is greater than h")
+		
+//Expected output
+//g is less than h
+
+g = 8
+h = 8
+if g < h:
+	print("g is less than h")
+else:
+	if g == h:
+		print("g is equal to h")
+	else:
+		print("g is greater than h")
+		
+//Expected output
+//g is equal to h
