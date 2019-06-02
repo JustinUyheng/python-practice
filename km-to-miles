@@ -1,2 +1,9 @@
 km = convert(miles)
 # km = 1.6 * miles
+
+def convert(x):
+	return x * 1.6
+	
+km = convert(2)
+print(km)
+# Expected output: 3.2
